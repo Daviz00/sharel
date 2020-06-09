@@ -1,3 +1,5 @@
+import 'dart:html';
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -7,8 +9,30 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
+  bool isAuth = false;
+
+  Widget buildAuthScreen() {
+    return Text('Authenticated');
+  }
+
+  Scaffold buildUnAuthScreen() {
+    return Scaffold()(
+      body: Container(
+        child: Column(
+          children: <Widget>[
+            Text(
+              'Sharel',
+              style: TextStyle(
+                  fontFamily: 'Signatra', fontSize: 90.0, color: Colors.white),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
-    return Text("Home");
+    return isAuth ? buildAuthScreen() : buildUnAuthScreen();
   }
 }
