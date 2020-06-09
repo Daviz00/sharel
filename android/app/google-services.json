@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "373980071641",
+    "firebase_url": "https://sharel-95847.firebaseio.com",
+    "project_id": "sharel-95847",
+    "storage_bucket": "sharel-95847.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:373980071641:android:170f6b82c543bec538a0c8",
+        "android_client_info": {
+          "package_name": "me.daviz00.sharel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "373980071641-rfe3np77pj0jn5p08hj80r7pskelrrd6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "me.daviz00.sharel",
+            "certificate_hash": "b42c2401f521e19675ac7133191c7ceae5d77d26"
+          }
+        },
+        {
+          "client_id": "373980071641-tfoor3imsq7gdhv8jepagsrbdt0pa4va.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcwqjQdHeDP3ck-xRnuUytGlgch65Bc5g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "373980071641-tfoor3imsq7gdhv8jepagsrbdt0pa4va.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
